@@ -56,6 +56,7 @@ clusterNew:
       label: Cluster Flavor
     masterVersion:
       label: 版本
+      warningNotRecommend: “{version}”，此版本华为 CCE 不推荐使用。具体请查阅华为官方文档。
     vpcId:
       label: 虚拟私有云
     subnetId:
