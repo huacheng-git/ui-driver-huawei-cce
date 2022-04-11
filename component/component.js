@@ -242,7 +242,7 @@ export default Ember.Component.extend(ClusterDriver, {
   nodeFlavors:             null,
   keypairs:                null,
   availableZones:          null,
-  step:                    2,
+  step:                    1,
   eipSelection:            'none',
   highAvailabilityEnabled: 's2',
   managementScale:         'small',
