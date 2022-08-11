@@ -171,9 +171,6 @@ export default Ember.Component.extend(ClusterDriver, {
       label: 'CentOS 7.6',
       value: 'CentOS 7.6',
     }, {
-      label: 'Ubuntu 18.04',
-      value: 'Ubuntu 18.04',
-    }, {
       label: 'EulerOS 2.5',
       value: 'EulerOS 2.5',
     }],
