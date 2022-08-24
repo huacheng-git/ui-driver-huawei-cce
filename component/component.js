@@ -134,17 +134,17 @@ export default Ember.Component.extend(ClusterDriver, {
     {
       label: 'v1.23',
       value: 'v1.23',
-      rancherEnabeld: false,
+      rancherEnabled: false,
     },
     {
       label: 'v1.21',
       value: 'v1.21',
-      rancherEnabeld: false,
+      rancherEnabled: false,
     },
     {
       label: 'v1.19',
       value: 'v1.19',
-      rancherEnabeld: true,
+      rancherEnabled: true,
     },
   ],
   eipChargeModeContent: [
@@ -892,7 +892,7 @@ export default Ember.Component.extend(ClusterDriver, {
     const versionChoices = get(this, 'masterVersions') || [];
 
     return versionChoices.find(v=>{
-      return v.value === kubernetesVersion && !v.rancherEnabeld
+      return v.value === kubernetesVersion && !v.rancherEnabled
     })
   }),
 
