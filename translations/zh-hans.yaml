@@ -62,6 +62,7 @@ clusterNew:
       warningNotRecommend: “{version}”，此版本华为 CCE 不推荐使用。具体请查阅华为官方文档。
       warningRacher: “{version}”，此版本不在 Rancher 支持矩阵范围内。可参考
       warningRancherTip: Rancher 支持矩阵。
+      warningHuawei: 当前版本为 Beta 版本，用于体验新版集群的特性，不建议用于商用场景。
     vpcId:
       label: 虚拟私有云
     subnetId:

@@ -62,6 +62,7 @@ clusterNew:
       warningNotRecommend: “{version}”，This version of Huawei CCE is not recommended. For details, see huawei official documents.
       warningRacher: “{version}”，This version is not supported by Rancher. Reference
       warningRancherTip: Rancher support matrix.
+      warningHuawei: You are running a beta cluster version in which new features may not have been finalized and therefore, beta versions are not recommended for commercial purposes.
     vpcId:
       label: VPC Name
     subnetId:

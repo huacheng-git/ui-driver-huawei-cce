@@ -140,7 +140,7 @@ export default Ember.Component.extend(ClusterDriver, {
     {
       label: 'v1.25(Beta)',
       value: 'v1.25',
-      rancherEnabled: false,
+      rancherEnabled: true,
     },
   ],
   eipChargeModeContent: [

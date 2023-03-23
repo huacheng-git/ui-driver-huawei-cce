@@ -62,6 +62,7 @@ clusterNew:
       warningNotRecommend: “{version}”，此版本華為 CCE 不推薦使用。具體請查閱華為官方文檔。
       warningRacher: “{version}”，此版本不在 Rancher 支持矩陣範圍內。可參考
       warningRancherTip: Rancher 支持矩陣。
+      warningHuawei: 當前版本為 Beta 版本，用於體驗新版集群的特性，不建議用於商用場景。
     vpcId:
       label: 虛擬私有雲
     subnetId:
