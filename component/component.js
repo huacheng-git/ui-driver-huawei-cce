@@ -128,18 +128,13 @@ export default Ember.Component.extend(ClusterDriver, {
   ],
   masterVersions: [
     {
-      label: 'v1.23',
-      value: 'v1.23',
+      label: 'v1.25',
+      value: 'v1.25',
       rancherEnabled: true,
     },
     {
-      label: 'v1.21',
-      value: 'v1.21',
-      rancherEnabled: false,
-    },
-    {
-      label: 'v1.25(Beta)',
-      value: 'v1.25',
+      label: 'v1.23',
+      value: 'v1.23',
       rancherEnabled: true,
     },
   ],
@@ -248,7 +243,7 @@ export default Ember.Component.extend(ClusterDriver, {
         dataVolumeSize:        100,
         vpcId:                 null,
         clusterType:           'VirtualMachine',
-        masterVersion:         'v1.23',
+        masterVersion:         'v1.25',
         billingMode:           0,
         containerNetworkMode:  'overlay_l2',
         clusterFlavor:         'cce.s2.small',
